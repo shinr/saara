@@ -1,6 +1,6 @@
 {
   "name": "saara",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Adds an element to an array to the second place. Also supports adding to second to last place. Does the modification immutably.",
   "main": "index.js",
   "scripts": {

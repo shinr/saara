@@ -1,4 +1,4 @@
-exports.saara = function(item, array) {
+exports.saaraize = function(item, array) {
     return Array.isArray(array) ? 
         array.reduce(function(coll, val, index) {
             return index === 1 ? 
@@ -9,9 +9,9 @@ exports.saara = function(item, array) {
 function __reverse(coll, val) {
     return [].concat(val, coll)
 }
-exports.saaraEurovision = function (item, array) {
+exports.saaraVisionize = function (item, array) {
     return Array.isArray(array) ? 
-        exports.saara(item, array.reduce(__reverse, []))
+        exports.saaraize(item, array.reduce(__reverse, []))
             .reduce(__reverse, []) 
     : array;
 }
